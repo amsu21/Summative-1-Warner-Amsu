@@ -10,11 +10,11 @@ import java.util.List;
 import java.util.Random;
 
 @RestController
-public class WordController {
+public class ShoeController {
     private final List<Word> wordList;
     private static int idCounter = 1;
 
-    public WordController() {
+    public ShoeController() {
         wordList = new ArrayList<>();
 
         // WORDS
