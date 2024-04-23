@@ -14,7 +14,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 // CLASS ANNOTATIONS
 @RunWith(SpringRunner.class)
-@WebMvcTest(ShoeController.class)
+@WebMvcTest(WordController.class)
 
 
 public class WordControllerTest {
